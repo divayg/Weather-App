@@ -1,0 +1,72 @@
+body{
+  margin:0px;
+  padding:0px;
+  background:url("https://thumbs.dreamstime.com/t/flickering-white-particles-black-background-as-motion-layer-animation-x-full-hd-footage-50422981.jpg");
+}
+h1{
+  text-align:center;
+  color:#ededed;
+  font-size:40px;
+}
+.weather-container{
+  width:60%;
+  height:100%;
+  margin:auto auto;
+  background-color:rgba(255,255,255,0.1);
+  padding:15px;
+}
+.temp-cont{
+  display:flex;
+  padding:10px;
+}
+.temp-container{
+    padding:12px;
+   flex:2 auto;
+   margin:5px;
+  overflow:hidden;
+}
+#city{
+  color:#fff;
+  font-size:32px;
+}
+.temp,.weather{
+  text-align:right;
+  font-size:26px;
+  font-family:Sans;
+  color:#fff;
+  line-height:2;
+  text-transform:capitalize;
+}
+.weather{
+  font-size:22px;
+}
+.button{
+  padding:12px 25px;
+  background-color:rgba(0,0,0,0.8);
+  color:#f00;
+  font-size:22px;
+ border-color:transparent;
+  border-radius:10px;
+}
+.inc{
+  width:200px;
+}
+.weather-img>img{
+  width:60%;
+  display:block;
+  margin:auto;
+  border-radius:50%;
+}
+
+@media (max-width:500px) {
+  .weather-container{
+    width:100%;
+    overflow:hidden;
+  } 
+  .temp-container{
+    width:85%;
+  }
+  .temp-cont{
+    display:block;
+  }
+}
